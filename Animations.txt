@@ -1,0 +1,26 @@
+      <>        <>
+     /{}\      /{}\    Warrior movement
+      ||        /\
+
+      ><        ><
+     /{}\      /{}\   mage movement
+      ||        /\
+
+       <>         <>
+     \/{}\      _/{}\  warrior combat
+       ||         ||
+
+
+       ><       ><
+      /{}\/    /{}\| mage combat
+       ||/      || |
+
+
+
+     /\     /\
+    /  \   /  \   mob movement
+    /||\   \||/ 
+
+           /\
+   /\/\   /  \  mob attacking
+   /||\   /||\
