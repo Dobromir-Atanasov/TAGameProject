@@ -1,0 +1,50 @@
+Class Hero
+1. Holds information about hero:
+- HP, Mana/Rage, Items weared (helm, armor, feet, sword/staff), current level, current exp
+
+
+
+
+
+Class Item
+1. Generate new item
+2. Item types: helm, armor, feet, weapon
+3. Bonus rolls
+4. Wearing / droping item
+
+
+
+
+Class ConsoleIO
+interact with player
+generate outpu
+
+
+
+Class Mob
+generate mob - based on 
+control mob behavior (us verion)
+
+
+
+
+
+Class Boss (inheritates Class Mobs)
+mobs stats +2
+
+
+Class Level
+takes care of mob and hero leveling and experience
+
+
+
+Class Map
+Full map generator on entry
+holds mob and player position
+
+
+
+
+Class MobAndHeroInteraction
+control mob behavior
+control where hero can move
