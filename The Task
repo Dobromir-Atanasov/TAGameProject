@@ -1,0 +1,19 @@
+The Game should look like this:
+
+It will be player vs computer.
+
+Player can choose between two classes Warrior (melee) and Mage (ranged).
+
+                  Warrior                           Mage
+Main stat         Hit points                        Hit points
+Secondary stat    Rage                              Mana
+                  Increases +1/s in combat          Increases +1/s out of combat
+Main ability      Slash                             Fire ball
+                  1+lvl*0.9 dmg                     1+lvl*0.9 dmg
+Secondary skill   Smash                             Cold snap
+                  1 sec stun                        1 sec freeze
+                  stun time +s by items             freeze time +s by items
+Hero LVL          starts from 1
+                  Increases by exp gain
+                  Exp needed to lvl up = 100*(1+lvl*0.1)
+Damage                              
