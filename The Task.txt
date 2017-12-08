@@ -13,7 +13,52 @@ Main ability      Slash                             Fire ball
 Secondary skill   Smash                             Cold snap
                   1 sec stun                        1 sec freeze
                   stun time +s by items             freeze time +s by items
+Healing skill	  cool down 1 min (or 30 sec?)	
 Hero LVL          starts from 1
                   Increases by exp gain
                   Exp needed to lvl up = 100*(1+lvl*0.1)
-Damage                              
+Damage            Bassed on hero lvl + item bonuses (hero lvl * 1 + bonuses)
+Recovery time	  Bassed on item bonuses (1 - bonuses)	
+
+
+items
+ilvl (item lvl) = mob lvl +/- 50%
+helm
+Can roll +Health (ilvl* 1) +mana/rage per/s ( + ilvl* 1.1 per/s)
+armor
+Can roll +Health (ilvl* 1) +freeze/stun ( + ilvl* 1.1 per/s)
+feet
+Can roll +Health (ilvl* 1) +mana/rage per/s ( + ilvl* 1.1 per/s)
+helm
+Can roll +Health (ilvl* 1) +recovery time ( + ilvl* 0.9 per/s)
+weapon
+Can roll +dmg ( + ilvl* 1.1 dmg)
+Item can be equiped at drop time (after mob kill) or thrown (disapear)
+item drop chance = 10%
+items will be auto equip for now (if better stats autoequip)
+can be changed for player choice (y = equip, space = throw it and forget)
+
+experience
+gain by mob/boss kill
+mob kill gives exp = mob lvl (if boss => exp *3)
+player dear = -50% of current exp (cant drop bellow 0)
+lvl up => exp needed for next lvl = current lvl exp *1.1 (+10%)
+
+control
+/player commands
+W - move up
+S - move down
+A - move left
+D - move right
+space = special skill (or throw item droped if not autoequip implemented)
+H - healing skill
+
+mobs
+healt /dmg (based on maze lvl *1.2)
+spown place (random and away from player entrance)
+quantity (3 to 6 per maze map)
+mob lvl = maze lvl
+boss (random 1 out of 20 mob spowns) check if already spown for this maze (only one boss per maze)
+boss hp/dmg = mob hp/dmg *2
+
+
